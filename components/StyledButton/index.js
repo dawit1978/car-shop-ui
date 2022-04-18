@@ -7,10 +7,10 @@ const StyledButton = (props) => {
     // const content = props.content;
     // const onPress = props.onPress
     // console.warn(type)
-    
+
     const {type, content, onPress} = props
-    const backgroundColor = type === 'primary'? '#171A20CC' : '#FFFFFA6' ;
-    const textColor = type === 'primary'? '#FFFFFA6' : '#171A20CC' ;
+    const backgroundColor = type === 'primary'? '#171A20' : '#FFFFFF' ;
+    const textColor = type === 'primary'? '#FFFFFF' : '#171A20' ;
   return (
     <View style={styles.container}>
         <Pressable 
